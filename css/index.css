@@ -1,0 +1,19 @@
+body {
+  /* Show it's not fixed to the top */
+  min-height: 75rem;
+  padding-top: 6rem;
+}
+
+li.nav-item:hover {
+  cursor: pointer;
+}
+
+.active2 {
+    background-color: red
+}
+
+.box {
+    border: 1px solid #00F;
+    padding: 2px;
+    margin: 2px 0px;
+}

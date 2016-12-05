@@ -1,0 +1,16 @@
+<div class="jumbotron">
+    <h1>Цены</h1>
+    <p>За прошедшие годы текст Lorem Ipsum получил много версий.</p>
+    <p>Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так.</p>
+    <p>
+        <a class="btn btn-lg btn-primary" href="#" role="button">Go Home &raquo;</a>
+    </p>
+</div>
+
+<!-- search results -->
+<div ng-hide="!searchResult.length">
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="item in searchResult">{{item.name}}  ---- {{item.value}}</li>
+    </ul>
+</div>
+<!-- /search results -->
